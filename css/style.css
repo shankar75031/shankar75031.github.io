@@ -149,7 +149,7 @@ ul.submenu li a {
 
 ul.submenu li a:hover,
 ul.submenu li a.active {
-    color: #2a5298;
+    color: #222;
 }
 
 /* //menu */
@@ -173,7 +173,7 @@ a.scroll.bnr-btn{
     background: #fff;
     border: 2px solid #fff;
     text-transform: capitalize;
-    color: #2a5298;
+    color: #222;
     padding: 10px 25px;
     display: inline-block;
     margin-top: 2em;
@@ -225,8 +225,8 @@ a.scroll.bnr-btn i{
 	background-size: cover;
 	opacity: 0.9;
 	background: #1e3c72;  /* fallback for old browsers */
-	background: -webkit-linear-gradient(to right, #2a5298, rgba(30, 60, 114, 0.59));  /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to right, #2a5298, rgba(30, 60, 114, 0.59)); /* IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	background: -webkit-linear-gradient(to right, #222, rgba(68,68,68,0.59));  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #222, rgba(68,68,68,0.59)); /* IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
 .bnr-inner-grid-txt h2 {
@@ -317,8 +317,8 @@ h3.position {
     color: #777;
 }
 a.abt-btn {
-    background: #2a5298;
-    border: 2px solid #2a5298;
+    background: #222;
+    border: 2px solid #222;
     text-transform: capitalize;
     color: #fff;
     padding: 10px 25px;
@@ -374,7 +374,7 @@ a.abt-btn {
     font-weight: 600;
 }
 .panel-thumbnail h3 {
-    color: #2a5298;
+    color: #222;
 }
 .panel-thumbnail img {
     width: 150px;
@@ -420,7 +420,7 @@ p.sub-meta {
 
 .text-info-sec h3 {
     font-size: 2.5em;
-    color: #2a5298;
+    color: #222;
     font-weight: 300;
     text-transform: capitalize;
     letter-spacing: 0;
@@ -493,7 +493,7 @@ p.sub-meta {
 
 .tab-main input:checked + label {
     border-bottom: 1px solid #fff;
-    color: #2a5298;
+    color: #222;
     border-bottom: 2px solid;
     background: #f8f9fa;
     font-size: 20px;
@@ -650,8 +650,8 @@ p.paragraph:after {
     height: 8em;
 }
 .contact-form button.btn.btn-default {
-    background: #2a5298;
-    border: 2px solid #2a5298;
+    background: #222;
+    border: 2px solid #222;
     text-transform: capitalize;
     color: #fff;
     padding: 10px 25px;
@@ -932,7 +932,7 @@ a.move-top span{
 		margin-bottom: 2em;
 	}
 	a.abt-btn {
-		background: #2a5298;
+		background: #222;
 		margin-top: 1em;
 	}
 }
