@@ -225,8 +225,8 @@ a.scroll.bnr-btn i{
 	background-size: cover;
 	opacity: 0.9;
 	background: #1e3c72;  /* fallback for old browsers */
-	background: -webkit-linear-gradient(to right, #222, rgba(68,68,68,0.59));  /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to right, #222, rgba(68,68,68,0.59)); /* IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	background: -webkit-linear-gradient(to right, #222, rgba(38,38,38,0.59));  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #222, rgba(38,38,38,0.59)); /* IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
 .bnr-inner-grid-txt h2 {
@@ -544,7 +544,7 @@ p.sub-meta {
 .box9 .icon li a{display:block;width:38px;height:38px;background:#f39c12;font-size:15px;color:#fff;margin-right:5px;transition:all .35s ease 0s;-webkit-transition:all .35s ease 0s}
 .box9 .icon a:hover{background:#fff;color:#f39c12;}
 @media only screen and (max-width:990px){}
-}
+
 p.paragraph {
     color: #888;
     font-size: 16px;
