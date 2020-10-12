@@ -162,7 +162,64 @@ p {
   border-radius: 4px;
   background: var(--bg-main);
   box-shadow: 5px 5px 10px var(--shadow-light), 
-  -5px -5px 10px var(--shadow-dark);}
+  -5px -5px 10px var(--shadow-dark);
 }
 
-/*# sourceMappingURL=styles.css.map */
+.table {
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.input:focus, .input:active {
+  background-color: transparent;
+}
+
+.input {
+  border: none;
+  outline: none;
+}
+
+
+/* WORK */
+
+.card-work {
+  min-width: 300px;
+  max-width: 300px;
+}
+
+.card-work > h6 {
+  font-weight: 600;
+}
+
+
+/* ACHIEVEMENTS AND CERTIFICATIONS */
+
+/* EDUCATION */
+.content-education> td{
+  padding-top: 3rem;
+}
+
+.indicator-education {
+  min-width: 5rem;
+}
+
+.content-education-right {
+  text-align: start;
+}
+
+.content-education-left {
+  text-align: end;
+}
+
+
+
+/* CONTACT */
+
+.form-input {
+  margin-top: 1rem;
+}
