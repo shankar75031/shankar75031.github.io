@@ -71,7 +71,7 @@ h6 {
 }
 
 h1 {
-  font-size: 6rem;
+  font-size: 4rem;
   font-weight: 900;
 }
 
@@ -81,13 +81,13 @@ h2 {
 }
 
 h3 {
-  font-size: 4rem;
+  font-size: 1.5rem;
   font-weight: 700;
 }
 
 h4 {
-  font-size: 3rem;
-  font-weight: 700;
+  font-size: 1.2rem;
+  font-weight: 600;
 }
 
 h5 {
@@ -102,6 +102,11 @@ h6 {
 
 p {
   font-size: 1rem;
+}
+
+.container {
+  margin-left: 200px;
+  padding-right: 200px;
 }
 
 #logo {
@@ -188,95 +193,39 @@ p {
   }
 }
 
-.cover {
-  height: 75vh;
+/* BIO SECTION */
+
+#bio {
+  margin-top: 12rem;
+  margin-bottom: 6rem;
 }
 
-#cover-content {
-  height: 50vh;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.bio-image-container {
+  height: 400px;
+  display: inline-block;
+  width: 400px;
+  border-radius: 50%;
 }
 
-.section {
-  padding: 5% 2%;
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+.bio-image-container img {
+  height: 380px;
+  width: 380px;
+  margin-left: 10px;
+  margin-top: 10px;
+  object-fit: cover;
+  border-radius: 50%;
 }
 
-.half-section {
-  min-height: 50vh;
+.bio-name {
+  display: inline-block;
 }
 
-.card {
-  margin: 2rem;
-  padding: 1rem 2rem;
-  border-radius: 4px;
-  background: var(--bg-main);
-  box-shadow: 5px 5px 10px var(--shadow-light),
-    -5px -5px 10px var(--shadow-dark);
+.bio-description {
+  margin-top: 4rem;
 }
 
-.table {
-  display: flex;
-  flex-direction: column;
-}
-
-.row {
-  display: flex;
-  flex-direction: row;
-}
-
-.input:focus,
-.input:active {
-  background-color: transparent;
-}
-
-.input {
-  border: none;
-  outline: none;
-}
-
-/* WORK */
-
-.card-work {
-  min-width: 300px;
-  max-width: 300px;
-}
-
-.card-work > h6 {
-  font-weight: 600;
-}
-
-/* ACHIEVEMENTS AND CERTIFICATIONS */
-
-/* EDUCATION */
-.content-education > td {
-  padding-top: 3rem;
-}
-
-.indicator-education {
-  min-width: 5rem;
-}
-
-.content-education-right {
-  text-align: start;
-}
-
-.content-education-left {
-  text-align: end;
-}
-
-/* CONTACT */
-
-.form-input {
-  margin-top: 1rem;
+/* SKILLS SECTION */
+#skills {
+  margin-top: 6rem;
+  margin-bottom: 6rem;
 }
