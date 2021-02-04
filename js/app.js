@@ -14,3 +14,13 @@ toggle.addEventListener('click', function(e) {
     toggle.innerText = 'Turn off Dark Mode';
   }
 });
+
+/* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+function toggleNavigationMenu() {
+  var x = document.getElementById("nav-menu");
+  if (x.className === "nav-menu") {
+    x.className += " responsive";
+  } else {
+    x.className = "nav-menu ";
+  }
+}

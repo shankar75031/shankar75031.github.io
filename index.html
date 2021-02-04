@@ -4,33 +4,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./css/styles.css">
     <title>Prabhashankar Kannapan</title>
 </head>
 
 <body>
     <header>
-        <nav class="nav-bar">
-            <!-- <h1 id="logo">
-                <a href="index.html" id="logoLink"><i class="fa fa-adjust"></i> <span>P</span>SK</a>
-            </h1> -->
-            <ul class="nav-menu">
-                <li class="nav-menu-item"><a href="#home">Home</a></li>
+        <nav class="nav-bar card-elevated">
+            <span>
+                <img id="logo" src="./images/logo.svg" alt="Prabhashankar's Logo" />
+            </span>
+            <ul class="nav-menu" id="nav-menu">
+                <li> 
+                    <a href="javascript:void(0);" class="icon" onclick="toggleNavigationMenu()">
+                            <i class="fa fa-bars"></i>
+                    </a>
+                </li>
+                <li class="nav-menu-item menu-selected"><a href="#home">Home</a></li>
                 <li class="nav-menu-item"><a href="#skills">Skills</a></li>
                 <li class="nav-menu-item"><a href="#works">Works</a></li>
+                <li class="nav-menu-item"><a href="#achievements">Achievements</a></li>
                 <li class="nav-menu-item"><a href="#education">Education</a></li>
                 <li class="nav-menu-item"><a href="#contact">Contact</a></li>
-                <li class="nav-menu-item toggle-theme">Turn on Dark Mode</li>
+
+                <!-- <li class="nav-menu-item toggle-theme">Turn on Dark Mode</li> -->
             </ul>
         </nav>
     </header>
-    <section id="home">
+    <!-- <section id="home container">
         <div class="cover">
             <div id="cover-content" class="section">
                 <h1>Hi, I am Prabhashankar</h1>
-                <!-- <h4>aka PSK</h4> -->
             </div>
             <div>
                 <center>
@@ -128,12 +133,12 @@
                 <button type="submit" class="form-input">Submit</button>
             </div>
         </div>
-    </section>
-    <footer>
+    </section>-->
+    <!-- <footer>
         <div>
             <p>Made with <span class="heart">❤</span> by Prabhashankar</p>
         </div>
-    </footer>
+    </footer>  -->
     <script src="js/app.js"></script>
 </body>
 
