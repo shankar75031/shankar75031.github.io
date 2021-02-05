@@ -76,8 +76,9 @@ h1 {
 }
 
 h2 {
-  font-size: 5rem;
-  font-weight: 900;
+  font-size: 2rem;
+  display: inline;
+  font-weight: 700;
 }
 
 h3 {
@@ -104,9 +105,36 @@ p {
   font-size: 1rem;
 }
 
-.container {
+section {
   margin-left: 200px;
   padding-right: 200px;
+}
+
+.container {
+  display: inline-flex;
+  flex-direction: column;
+}
+
+.section-header {
+  display: flex;
+  align-self: center;
+  flex-direction: column;
+}
+
+.section-header-text {
+  display: inline;
+  text-align: center;
+}
+
+.section-header-underline {
+  margin-top: 10px;
+  width: 6rem;
+  align-self: center;
+  display: inline-block;
+  height: 0.1rem;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.8);
+  filter: blur(1px);
 }
 
 #logo {
@@ -200,6 +228,13 @@ p {
   margin-bottom: 6rem;
 }
 
+.bio-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-self: center;
+}
+
 .bio-image-container {
   height: 400px;
   display: inline-block;
@@ -217,6 +252,7 @@ p {
 }
 
 .bio-name {
+  margin-left: 126px;
   display: inline-block;
 }
 
