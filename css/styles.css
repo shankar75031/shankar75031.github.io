@@ -434,3 +434,39 @@ section {
   align-self: center;
   margin: 2.5rem 2.5rem 3rem 3rem;
 }
+
+/* FOOTER */
+footer {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+}
+.footer-title {
+  font-weight: 300;
+  font-size: 1.3rem;
+}
+.footer-follow {
+  font-weight: 700;
+  margin-top: 2rem;
+  font-size: 0.8rem;
+}
+
+.social-icons-container {
+  display: flex;
+}
+
+.icon-container-rounded-square {
+  border-radius: 5px;
+  margin: 1rem;
+}
+
+.icon-container-rounded-square img {
+  color: var(--text-primary);
+  width: 20px;
+  margin: 0.5rem 0.7rem 0.5rem 0.7rem;
+  height: 20px;
+}
