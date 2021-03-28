@@ -372,33 +372,35 @@
           <div class="section-header-underline"></div>
         </div>
         <div class="contact-form-container">
-          <textarea
-            class="card-sunken form-input"
-            name="message"
-            id="message"
-            cols="80"
-            rows="5"
-            placeholder="your message here..."
-          ></textarea>
-          <input
-            type="text"
-            name="name"
-            class="card-sunken form-input"
-            id="name"
-            placeholder="full name"
-          />
-          <input
-            type="email"
-            name="email"
-            id="email"
-            class="card-sunken form-input"
-            placeholder="email id"
-          />
-          <div class="card-elevated form-button-container">
-            <button type="submit" class="form-input-button bg-grey-grad">
-              send
-            </button>
-          </div>
+          <form action="https://formspree.io/f/xyylgony" method="post">
+            <textarea
+              class="card-sunken form-input"
+              name="Message"
+              id="message"
+              cols="80"
+              rows="5"
+              placeholder="your message here..."
+            ></textarea>
+            <input
+              type="text"
+              name="Name"
+              class="card-sunken form-input"
+              id="name"
+              placeholder="full name"
+            />
+            <input
+              type="email"
+              name="Email"
+              id="email"
+              class="card-sunken form-input"
+              placeholder="email id"
+            />
+            <div class="card-elevated form-button-container">
+              <button type="submit" class="form-input-button bg-grey-grad">
+                send
+              </button>
+            </div>
+          </form>
         </div>
       </div>
     </section>
