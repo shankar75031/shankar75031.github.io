@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "psk-portfolio"
+  },
+  "targets": {
+    "psk-portfolio": {
+      "hosting": {
+        "portfolio": [
+          "prabhashankar"
+        ]
+      }
+    }
+  }
+}
