@@ -438,9 +438,9 @@ section {
 }
 
 .skills-languages-row-lg {
-  display: flex;
-  flex-grow: 1;
-  flex-direction: row;
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(4, 1fr);
 }
 
 @media screen and (max-width: 1250px) {
@@ -448,14 +448,20 @@ section {
     flex-direction: column;
   }
   .skills-languages-row-lg {
-    flex-direction: column;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .skills-languages-row-lg {
+    grid-template-columns: repeat(1, 1fr);
   }
 }
 
 .skills-languages-card {
   padding: 1rem;
   margin: 2rem 1rem 2rem 1rem;
-  flex-grow: 1;
+  width: auto;
   border-radius: 12px;
 }
 
@@ -537,9 +543,9 @@ section {
 }
 
 .work-experience-row-lg {
-  display: flex;
-  flex-grow: 1;
-  flex-direction: row;
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(4, 1fr);
 }
 
 @media screen and (max-width: 1250px) {
@@ -547,14 +553,20 @@ section {
     flex-direction: column;
   }
   .work-experience-row-lg {
-    flex-direction: column;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .work-experience-row-lg {
+    grid-template-columns: repeat(1, 1fr);
   }
 }
 
 .work-experience-card {
   padding: 1rem;
   margin: 2rem 1rem 2rem 1rem;
-  flex-grow: 1;
+  /* flex-grow: 1; */
   border-radius: 12px;
 }
 
