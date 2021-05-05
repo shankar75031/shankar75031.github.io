@@ -643,6 +643,7 @@ footer {
 }
 
 .icon-container-rounded-square {
+  transition: box-shadow 0.3s ease-in-out;
   border-radius: 5px;
   margin: 1rem;
 }
@@ -652,4 +653,10 @@ footer {
   width: 20px;
   margin: 0.5rem 0.7rem 0.5rem 0.7rem;
   height: 20px;
+}
+
+.icon-container-rounded-square:hover,
+.icon-container-rounded-square:active {
+  box-shadow: 5px 5px 10px inset var(--shadow-light),
+    -5px -5px 10px inset var(--shadow-dark);
 }
