@@ -322,6 +322,7 @@ section {
 
 .bio-container {
   display: flex;
+  width: 100%;
   flex-direction: row;
   align-items: center;
   align-self: center;
@@ -350,6 +351,34 @@ section {
 
 .bio-description {
   margin-top: 4rem;
+}
+
+@media screen and (max-width: 1250px) {
+  #bio {
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+  }
+  .bio-container {
+    flex-direction: column;
+  }
+  .bio-name {
+    margin-left: 0;
+    margin-top: 3rem;
+    text-align: center;
+  }
+  .bio-image-container {
+    height: 300px;
+    display: inline-block;
+    width: 300px;
+    border-radius: 50%;
+  }
+
+  .bio-image-container img {
+    height: 280px;
+    width: 280px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
 }
 
 /* SKILLS SECTION */
@@ -506,11 +535,11 @@ section {
   gap: 1rem;
 }
 .work-container-left {
-  grid-template-columns: 200px 1fr;
+  grid-template-columns: 5rem 1fr;
 }
 
 .work-container-right {
-  grid-template-columns: 1fr 200px;
+  grid-template-columns: 1fr 5rem;
 }
 
 .my-work-info-container {
@@ -545,8 +574,8 @@ section {
 }
 
 .my-works-img {
-  height: 200px;
-  width: 200px;
+  height: 5rem;
+  width: 5rem;
   background-color: ivory;
   border-radius: 10px;
 }
