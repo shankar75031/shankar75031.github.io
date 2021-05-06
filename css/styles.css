@@ -555,8 +555,7 @@ section {
   padding-left: 1rem;
   padding-right: 1rem;
   border-radius: 10px;
-  display: flex;
-  flex-direction: row;
+  width: 100%;
 }
 
 .work-experience-row-lg {
@@ -583,7 +582,6 @@ section {
 .work-experience-card {
   padding: 1rem;
   margin: 2rem 1rem 2rem 1rem;
-  /* flex-grow: 1; */
   border-radius: 12px;
 }
 
@@ -597,9 +595,81 @@ section {
 }
 
 .achievements-container {
-  padding: 2rem;
   border-radius: 10px;
+  margin-top: 2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
   width: 100%;
+}
+
+.achievements-row-lg {
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.achievements-card {
+  padding: 1rem;
+  margin: 2rem 1rem 2rem 1rem;
+  border-radius: 12px;
+}
+
+.achievements-card p {
+  margin-top: 1.5rem;
+}
+
+@media screen and (max-width: 1250px) {
+  .achievements-row-lg {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .achievements-row-lg {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+/* EDUCATION */
+
+#education {
+  margin-top: 3rem;
+}
+
+.education-container {
+  border-radius: 10px;
+  margin-top: 2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  width: 100%;
+}
+
+.education-row-lg {
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.education-card {
+  padding: 1rem;
+  margin: 2rem 1rem 2rem 1rem;
+  border-radius: 12px;
+}
+
+.education-card p {
+  margin-top: 1.5rem;
+}
+
+@media screen and (max-width: 1250px) {
+  .education-row-lg {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .education-row-lg {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
 
 /* CONTACT */
