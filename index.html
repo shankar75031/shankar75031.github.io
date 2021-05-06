@@ -1,277 +1,299 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" href="./images/favicon.ico" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-    <meta property="og:title" content="Prabhashankar Kannapan" />
-    <meta property="og:image" content="./images/cover.jpg" />
-    <meta
-      property="og:description"
-      content="Coffee, Code and Dark Mode! I am a Software Engineer specialized in cross platform mobile app development and full stack web development."
-    />
-    <meta property="og:url" content="https://www.prabhashankar.web.app" />
-    <link rel="stylesheet" href="./css/styles.css" />
-    <title>Prabhashankar Kannapan</title>
-  </head>
 
-  <body>
-    <header>
-      <nav class="nav-bar card-elevated">
-        <span>
-          <img id="logo" src="./images/logo.svg" alt="Prabhashankar's Logo" />
-        </span>
-        <ul class="nav-menu" id="nav-menu">
-          <li>
-            <a
-              href="javascript:void(0);"
-              class="icon"
-              onclick="toggleNavigationMenu()"
-            >
-              <i class="fa fa-bars"></i>
-            </a>
-          </li>
-          <li class="nav-menu-item menu-selected"><a href="#home">Home</a></li>
-          <li class="nav-menu-item"><a href="#skills">Skills</a></li>
-          <li class="nav-menu-item"><a href="#works">Works</a></li>
-          <!-- <li class="nav-menu-item"><a href="#achievements">Achievements</a></li> -->
-          <!-- <li class="nav-menu-item"><a href="#education">Education</a></li> -->
-          <li class="nav-menu-item"><a href="#contact">Contact</a></li>
-          <!-- <li class="nav-menu-item toggle-theme"><a href="javascript:void(0);">Toggle Dark Theme</a></li> -->
-        </ul>
-      </nav>
-    </header>
-    <section id="bio">
-      <div class="bio-container container">
-        <div class="bio-image-container card-elevated">
-          <img
-            src="./images/cover.jpg"
-            alt="Photograph of Prabhashankar Kannapan"
-          />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="./images/favicon.ico" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <meta property="og:title" content="Prabhashankar Kannapan" />
+  <meta property="og:image" content="./images/cover.jpg" />
+  <meta property="og:description"
+    content="Coffee, Code and Dark Mode! I am a Software Engineer specialized in cross platform mobile app development and full stack web development." />
+  <meta property="og:url" content="https://www.prabhashankar.web.app" />
+  <link rel="stylesheet" href="./css/styles.css" />
+  <title>Prabhashankar Kannapan</title>
+</head>
+
+<body>
+  <header>
+    <nav class="nav-bar card-elevated">
+      <span>
+        <img id="logo" src="./images/logo.svg" alt="Prabhashankar's Logo" />
+      </span>
+      <ul class="nav-menu" id="nav-menu">
+        <li>
+          <a href="javascript:void(0);" class="icon" onclick="toggleNavigationMenu()">
+            <i class="fa fa-bars"></i>
+          </a>
+        </li>
+        <li class="nav-menu-item menu-selected"><a href="#home">Home</a></li>
+        <li class="nav-menu-item"><a href="#skills">Skills</a></li>
+        <li class="nav-menu-item"><a href="#works">Works</a></li>
+        <!-- <li class="nav-menu-item"><a href="#achievements">Achievements</a></li> -->
+        <!-- <li class="nav-menu-item"><a href="#education">Education</a></li> -->
+        <li class="nav-menu-item"><a href="#contact">Contact</a></li>
+        <!-- <li class="nav-menu-item toggle-theme"><a href="javascript:void(0);">Toggle Dark Theme</a></li> -->
+      </ul>
+    </nav>
+  </header>
+  <section id="bio">
+    <div class="bio-container container">
+      <div class="bio-image-container card-elevated">
+        <img src="./images/cover.jpg" alt="Photograph of Prabhashankar Kannapan" />
+      </div>
+      <div class="bio-name">
+        <h3>hi, i am</h3>
+        <h1>prabhashankar</h1>
+        <h4 class="bio-description">
+          a software engineer hailing from<br />kochi, the queen of the
+          arabian sea
+        </h4>
+      </div>
+    </div>
+  </section>
+  <section id="skills">
+    <div class="skills-container container">
+      <div class="section-header">
+        <h2 class="section-header-text">skills</h2>
+        <div class="section-header-underline"></div>
+      </div>
+      <div class="skills-sectors flex-container">
+        <div class="skills-sector-container flex-item-left">
+          <h4 class="skills-sector-heading">software development</h4>
+          <h5>native android app development</h5>
+          <p>3 years experience</p>
+          <div class="progressbar-container card-elevated">
+            <div class="progressbar bg-green-grad progress-native-android"></div>
+          </div>
+          <p class="inline">experience level</p>
+          <h5 class="inline">intermediate</h5>
         </div>
-        <div class="bio-name">
-          <h3>hi, i am</h3>
-          <h1>prabhashankar</h1>
-          <h4 class="bio-description">
-            a software engineer hailing from<br />kochi, the queen of the
-            arabian sea
-          </h4>
+        <div class="skills-sector-container flex-item-right">
+          <h4 class="skills-sector-heading">&nbsp;</h4>
+          <h5>web application development</h5>
+          <p>1 year experience</p>
+          <div class="progressbar-container card-elevated">
+            <div class="progressbar bg-blue-grad progress-web-app"></div>
+          </div>
+          <p class="inline">experience level</p>
+          <h5 class="inline">intermediate</h5>
+        </div>
+        <div class="skills-sector-container flex-item-left">
+          <h4 class="skills-sector-heading">application designing</h4>
+          <h5>responsive app designing</h5>
+          <p>2 months experience</p>
+          <div class="progressbar-container card-elevated">
+            <div class="progressbar bg-red-grad progress-designing"></div>
+          </div>
+          <p class="inline">experience level</p>
+          <h5 class="inline">beginner</h5>
+        </div>
+        <div class="skills-sector-container flex-item-right">
+          <h4 class="skills-sector-heading">project management</h4>
+          <h5>software project management</h5>
+          <p>1.5 years experience</p>
+          <div class="progressbar-container card-elevated">
+            <div class="progressbar bg-blue-grad progress-project-management"></div>
+          </div>
+          <p class="inline">experience level</p>
+          <h5 class="inline">beginner</h5>
         </div>
       </div>
-    </section>
-    <section id="skills">
-      <div class="skills-container container">
-        <div class="section-header">
-          <h2 class="section-header-text">skills</h2>
-          <div class="section-header-underline"></div>
-        </div>
-        <div class="skills-sectors flex-container">
-          <div class="skills-sector-container flex-item-left">
-            <h4 class="skills-sector-heading">software development</h4>
-            <h5>native android app development</h5>
-            <p>3 years experience</p>
-            <div class="progressbar-container card-elevated">
-              <div
-                class="progressbar bg-green-grad progress-native-android"
-              ></div>
+      <div class="skills-languages">
+        <h4 class="skills-languages-heading">languages</h4>
+        <div class="card-sunken skills-languages-container">
+          <div class="skills-languages-row-lg">
+            <div class="skills-languages-card bg-red-grad">
+              <h4>java</h4>
+              <p>level</p>
+              <h5>intermediate</h5>
+              <p>experience</p>
+              <h5>3 years</h5>
             </div>
-            <p class="inline">experience level</p>
-            <h5 class="inline">intermediate</h5>
-          </div>
-          <div class="skills-sector-container flex-item-right">
-            <h4 class="skills-sector-heading">&nbsp;</h4>
-            <h5>web application development</h5>
-            <p>1 year experience</p>
-            <div class="progressbar-container card-elevated">
-              <div class="progressbar bg-blue-grad progress-web-app"></div>
+            <div class="skills-languages-card bg-blue-grad">
+              <h4>kotlin</h4>
+              <p>level</p>
+              <h5>intermediate</h5>
+              <p>experience</p>
+              <h5>1 year</h5>
             </div>
-            <p class="inline">experience level</p>
-            <h5 class="inline">intermediate</h5>
-          </div>
-          <div class="skills-sector-container flex-item-left">
-            <h4 class="skills-sector-heading">application designing</h4>
-            <h5>responsive app designing</h5>
-            <p>2 months experience</p>
-            <div class="progressbar-container card-elevated">
-              <div class="progressbar bg-red-grad progress-designing"></div>
+            <div class="skills-languages-card bg-yellow-grad">
+              <h4>javascript</h4>
+              <p>level</p>
+              <h5>intermediate</h5>
+              <p>experience</p>
+              <h5>1 year</h5>
             </div>
-            <p class="inline">experience level</p>
-            <h5 class="inline">beginner</h5>
-          </div>
-          <div class="skills-sector-container flex-item-right">
-            <h4 class="skills-sector-heading">project management</h4>
-            <h5>software project management</h5>
-            <p>1.5 years experience</p>
-            <div class="progressbar-container card-elevated">
-              <div
-                class="progressbar bg-blue-grad progress-project-management"
-              ></div>
+            <div class="skills-languages-card bg-green-grad">
+              <h4>python</h4>
+              <p>level</p>
+              <h5>beginner</h5>
+              <p>experience</p>
+              <h5>6 months</h5>
             </div>
-            <p class="inline">experience level</p>
-            <h5 class="inline">beginner</h5>
-          </div>
-        </div>
-        <div class="skills-languages">
-          <h4 class="skills-languages-heading">languages</h4>
-          <div class="card-sunken skills-languages-container">
-            <div class="skills-languages-row-lg">
-              <div class="skills-languages-card bg-red-grad">
-                <h4>java</h4>
-                <p>level</p>
-                <h5>intermediate</h5>
-                <p>experience</p>
-                <h5>3 years</h5>
-              </div>
-              <div class="skills-languages-card bg-blue-grad">
-                <h4>kotlin</h4>
-                <p>level</p>
-                <h5>intermediate</h5>
-                <p>experience</p>
-                <h5>1 year</h5>
-              </div>
-              <div class="skills-languages-card bg-yellow-grad">
-                <h4>javascript</h4>
-                <p>level</p>
-                <h5>intermediate</h5>
-                <p>experience</p>
-                <h5>1 year</h5>
-              </div>
-              <div class="skills-languages-card bg-green-grad">
-                <h4>python</h4>
-                <p>level</p>
-                <h5>beginner</h5>
-                <p>experience</p>
-                <h5>6 months</h5>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="skills-tools">
-          <h4 class="skills-tools-heading">frameworks & tools</h4>
-          <div class="card-sunken skills-tools-container">
-            <h5 class="tool-name">android-sdk</h5>
-            <h5 class="tool-name">react.js</h5>
-            <h5 class="tool-name">firebase</h5>
-            <h5 class="tool-name">django</h5>
-            <h5 class="tool-name">node.js</h5>
-            <h5 class="tool-name">jetpack library</h5>
-            <h5 class="tool-name">dagger</h5>
-            <h5 class="tool-name">retrofit</h5>
-            <h5 class="tool-name">ms office</h5>
-            <h5 class="tool-name">aws</h5>
-            <h5 class="tool-name">room db</h5>
-            <h5 class="tool-name">mongodb</h5>
-            <h5 class="tool-name">mysql</h5>
-            <h5 class="tool-name">mongoose</h5>
-            <h5 class="tool-name">sequelize</h5>
-            <h5 class="tool-name">coroutines</h5>
-            <h5 class="tool-name">graphql</h5>
-            <h5 class="tool-name">rest api</h5>
-            <h5 class="tool-name">android studio</h5>
-            <h5 class="tool-name">vs code</h5>
-            <h5 class="tool-name">figma</h5>
-            <h5 class="tool-name">git</h5>
-            <h5 class="tool-name">jwt</h5>
-            <h5 class="tool-name">jira</h5>
-            <h5 class="tool-name">photoshop</h5>
           </div>
         </div>
       </div>
-    </section>
-    <section id="works">
-      <div class="works-container container">
-        <div class="section-header">
-          <h2 class="section-header-text">works</h2>
-          <div class="section-header-underline"></div>
+      <div class="skills-tools">
+        <h4 class="skills-tools-heading">frameworks & tools</h4>
+        <div class="card-sunken skills-tools-container">
+          <h5 class="tool-name">android-sdk</h5>
+          <h5 class="tool-name">react.js</h5>
+          <h5 class="tool-name">firebase</h5>
+          <h5 class="tool-name">django</h5>
+          <h5 class="tool-name">node.js</h5>
+          <h5 class="tool-name">jetpack library</h5>
+          <h5 class="tool-name">dagger</h5>
+          <h5 class="tool-name">retrofit</h5>
+          <h5 class="tool-name">ms office</h5>
+          <h5 class="tool-name">aws</h5>
+          <h5 class="tool-name">room db</h5>
+          <h5 class="tool-name">mongodb</h5>
+          <h5 class="tool-name">mysql</h5>
+          <h5 class="tool-name">mongoose</h5>
+          <h5 class="tool-name">sequelize</h5>
+          <h5 class="tool-name">coroutines</h5>
+          <h5 class="tool-name">graphql</h5>
+          <h5 class="tool-name">rest api</h5>
+          <h5 class="tool-name">android studio</h5>
+          <h5 class="tool-name">vs code</h5>
+          <h5 class="tool-name">figma</h5>
+          <h5 class="tool-name">git</h5>
+          <h5 class="tool-name">jwt</h5>
+          <h5 class="tool-name">jira</h5>
+          <h5 class="tool-name">photoshop</h5>
         </div>
-        <div>
-          <h4 class="work-experience-heading">my works</h4>
-          <div class="my-works-container flex-container card-sunken">
-            <div class="work-container flex-item-left">
-              <div class="my-works-img"></div>
-              <div class="my-work-info-container">
-                <h4 class="works-heading">learnera</h4>
-                <h5>
-                  android application for students of rajagiri college to check
-                  their academic metrics and notifications with the click of a
-                  button.
-                </h5>
-              </div>
-            </div>
-            <div class="work-container flex-item-left">
-              <div class="my-work-info-container">
-                <h4 class="works-heading">learnera</h4>
-                <h5>
-                  android application for students of rajagiri college to check
-                  their academic metrics and notifications with the click of a
-                  button.
-                </h5>
-              </div>
-              <div class="my-works-img"></div>
-            </div>
-          </div>
-        </div>
-        <!-- <div class="card card-work">
-          <h6>LearnERA</h6>
-          <p>
-            LearnERA is an Android app for students of Rajagiri College using
+      </div>
+    </div>
+  </section>
+  <section id="works">
+    <div class="works-container container">
+      <div class="section-header">
+        <h2 class="section-header-text">works</h2>
+        <div class="section-header-underline"></div>
+      </div>
+      <div>
+        <h4 class="work-experience-heading">my works</h4>
+        <div class="my-works-container flex-container card-sunken">
+          <div class="work-container work-container-left">
+            <div class="my-works-img"></div>
+            <div class="my-work-info-container">
+              <h4 class="works-heading">learnera</h4>
+              <h5>
+                learnera is an android app for students of rajagiri college using
             which they could check their academic metrics and receive
             notifications of the right thing at the right time.
-          </p>
-        </div>
-        <div class="card card-work">
-          <h6>Smartitude</h6>
-          <p>
-            Smartitude is a progressive web app for creating, managing and
-            taking online MCQ exams.
-          </p>
-        </div>
-        <div class="card card-work">
-          <h6>Klant</h6>
-          <p>
-            Klant is an e-commerce platform for small scale businesses to sell
-            their products to the massess at ease.
-          </p>
-        </div>
-        <div class="card card-work">
-          <h6>CaterBazar</h6>
-          <p>CaterBazar is an</p>
-        </div>
-        <div class="card card-work">
-          <h6>Wisdom App</h6>
-        </div>
-        <div class="card card-work">
-          <h6>MoHFW Tracker</h6>
-        </div> -->
-        <div class="work-experience">
-          <h4 class="work-experience-heading">work experience</h4>
-          <div class="card-sunken work-experience-container">
-            <div class="work-experience-row-lg">
-              <div class="work-experience-card bg-purple-grad">
-                <h4>onne app</h4>
-                <p>role</p>
-                <h5>software engineer</h5>
-                <p>experience</p>
-                <h5>1.5 years</h5>
-              </div>
-              <div class="work-experience-card card-elevated">
-                <h4>more...</h4>
-                <p>&nbsp;</p>
-                <h5>&nbsp;</h5>
-                <p>...</p>
-                <h5>coming soon</h5>
-              </div>
-              
+              </h5>
             </div>
+          </div>
+          <div class="work-container work-container-right">
+            <div class="my-work-info-container">
+              <h4 class="works-heading">smartitude</h4>
+              <h5>
+                smartitude is a progressive web app for creating, managing and
+                taking online MCQ exams.
+              </h5>
+            </div>
+            <div class="my-works-img"></div>
+          </div>
+
+
+          <div class="work-container work-container-left">
+            <div class="my-works-img"></div>
+            <div class="my-work-info-container">
+              <h4 class="works-heading">klant</h4>
+              <h5>
+                klant is an e-commerce platform for small scale businesses to sell
+                their products to the massess at ease.
+              </h5>
+            </div>
+          </div>
+          <div class="work-container work-container-right">
+            <div class="my-work-info-container">
+              <h4 class="works-heading">caterbazar</h4>
+              <h5>
+                android application for students of rajagiri college to check
+                their academic metrics and notifications with the click of a
+                button.
+              </h5>
+            </div>
+            <div class="my-works-img"></div>
+          </div>
+
+          <div class="work-container work-container-left">
+            <div class="my-works-img"></div>
+            <div class="my-work-info-container">
+              <h4 class="works-heading">wisdom app</h4>
+              <h5>
+                klant is an e-commerce platform for small scale businesses to sell
+                their products to the massess at ease.
+              </h5>
+            </div>
+          </div>
+          <div class="work-container work-container-right">
+            <div class="my-work-info-container">
+              <h4 class="works-heading">caterbazar</h4>
+              <h5>
+                android application for students of rajagiri college to check
+                their academic metrics and notifications with the click of a
+                button.
+              </h5>
+            </div>
+            <div class="my-works-img"></div>
+          </div>
+
+          <div class="work-container work-container-left">
+            <div class="my-works-img"></div>
+            <div class="my-work-info-container">
+              <h4 class="works-heading">mohfw tracker</h4>
+              <h5>
+                klant is an e-commerce platform for small scale businesses to sell
+                their products to the massess at ease.
+              </h5>
+            </div>
+          </div>
+          <div class="work-container work-container-right">
+            <div class="my-work-info-container">
+              <h4 class="works-heading">stokal</h4>
+              <h5>
+                android application for students of rajagiri college to check
+                their academic metrics and notifications with the click of a
+                button.
+              </h5>
+            </div>
+            <div class="my-works-img"></div>
+          </div>
+
+      
+        </div>
+      </div>
+     
+      <div class="work-experience">
+        <h4 class="work-experience-heading">work experience</h4>
+        <div class="card-sunken work-experience-container">
+          <div class="work-experience-row-lg">
+            <div class="work-experience-card bg-purple-grad">
+              <h4>onne app</h4>
+              <p>role</p>
+              <h5>software engineer</h5>
+              <p>experience</p>
+              <h5>1.5 years</h5>
+            </div>
+            <div class="work-experience-card card-elevated">
+              <h4>more...</h4>
+              <p>&nbsp;</p>
+              <h5>&nbsp;</h5>
+              <p>...</p>
+              <h5>coming soon</h5>
+            </div>
+
           </div>
         </div>
       </div>
-    </section>
-    <!-- <section id="achievements">
+    </div>
+  </section>
+  <section id="achievements">
         <div class="container">
             <div class="section-header">
                 <h2 class="section-header-text">achievements</h2>
@@ -310,8 +332,8 @@
                 </div>
             </div>
         </div>
-    </section> -->
-    <!-- <section id="education">
+    </section>
+  <!-- <section id="education">
         <div class="section">
             <h3>Education</h3>
             <table>
@@ -350,104 +372,69 @@
             </table>
         </div>
     </section>-->
-    <section id="contact">
-      <div class="contact-container container">
-        <div class="section-header">
-          <h2 class="section-header-text">contact</h2>
-          <div class="section-header-underline"></div>
-        </div>
-        <div class="contact-form-container">
-          <form action="https://formspree.io/f/xyylgony" method="post">
-            <textarea
-              class="card-sunken form-input"
-              name="Message"
-              id="message"
-              cols="80"
-              rows="5"
-              placeholder="your message here..."
-            ></textarea>
-            <input
-              type="text"
-              name="Name"
-              class="card-sunken form-input"
-              id="name"
-              placeholder="full name"
-            />
-            <input
-              type="email"
-              name="Email"
-              id="email"
-              class="card-sunken form-input"
-              placeholder="email id"
-            />
-            <div class="card-elevated form-button-container">
-              <button type="submit" class="form-input-button bg-grey-grad">
-                send
-              </button>
-            </div>
-          </form>
-        </div>
+  <section id="contact">
+    <div class="contact-container container">
+      <div class="section-header">
+        <h2 class="section-header-text">contact</h2>
+        <div class="section-header-underline"></div>
       </div>
-    </section>
-    <footer class="card-elevated">
-      <div class="container footer-container">
-        <h2 class="footer-title">
-          made with <span class="heart">❤</span> by prabhashankar
-        </h2>
-        <h6 class="footer-follow">follow me on</h6>
-        <div class="social-icons-container">
-          <div class="icon-container-rounded-square card-elevated">
-            <a href="https://www.github.com/shankar75031">
-              <img
-                src="./images/linkedin.svg"
-                alt="Link to Prabhashankar's LinkedIn Profile"
-              />
-            </a>
+      <div class="contact-form-container">
+        <form action="https://formspree.io/f/xyylgony" method="post">
+          <textarea class="card-sunken form-input" name="Message" id="message" cols="80" rows="5"
+            placeholder="your message here..."></textarea>
+          <input type="text" name="Name" class="card-sunken form-input" id="name" placeholder="full name" />
+          <input type="email" name="Email" id="email" class="card-sunken form-input" placeholder="email id" />
+          <div class="card-elevated form-button-container">
+            <button type="submit" class="form-input-button bg-grey-grad">
+              send
+            </button>
           </div>
-          <div class="icon-container-rounded-square card-elevated">
-            <a href="https://twitter.com/prabhashankar_k">
-              <img
-                src="./images/twitter.svg"
-                alt="Link to Prabhashankar's Twitter Profile"
-              />
-            </a>
-          </div>
-          <div class="icon-container-rounded-square card-elevated">
-            <a href="https://www.facebook.com/prabhashankarkannapan">
-              <img
-                src="./images/facebook.svg"
-                alt="Link to Prabhashankar's Facebook Profile"
-              />
-            </a>
-          </div>
-          <div class="icon-container-rounded-square card-elevated">
-            <a href="https://www.github.com/shankar75031">
-              <img
-                src="./images/github.svg"
-                alt="Link to Prabhashankar's GitHub Profile"
-              />
-            </a>
-          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+  <footer class="card-elevated">
+    <div class="container footer-container">
+      <h2 class="footer-title">
+        made with <span class="heart">❤</span> by prabhashankar
+      </h2>
+      <h6 class="footer-follow">follow me on</h6>
+      <div class="social-icons-container">
+        <div class="icon-container-rounded-square card-elevated">
+          <a href="https://www.github.com/shankar75031">
+            <img src="./images/linkedin.svg" alt="Link to Prabhashankar's LinkedIn Profile" />
+          </a>
+        </div>
+        <div class="icon-container-rounded-square card-elevated">
+          <a href="https://twitter.com/prabhashankar_k">
+            <img src="./images/twitter.svg" alt="Link to Prabhashankar's Twitter Profile" />
+          </a>
+        </div>
+        <div class="icon-container-rounded-square card-elevated">
+          <a href="https://www.facebook.com/prabhashankarkannapan">
+            <img src="./images/facebook.svg" alt="Link to Prabhashankar's Facebook Profile" />
+          </a>
+        </div>
+        <div class="icon-container-rounded-square card-elevated">
+          <a href="https://www.github.com/shankar75031">
+            <img src="./images/github.svg" alt="Link to Prabhashankar's GitHub Profile" />
+          </a>
+        </div>
 
-          <div class="icon-container-rounded-square card-elevated">
-            <a href="mailto:prabhashankar.kannapan@gmail.com">
-              <img
-                src="./images/envelope.svg"
-                alt="Link to email Prabhashankar"
-              />
-            </a>
-          </div>
-          <div class="icon-container-rounded-square card-elevated">
-            <a href="http://wa.me/917012011453">
-              <img
-                src="./images/whatsapp.svg"
-                alt="Link to message Prabhashankar on WhatsApp"
-              />
-            </a>
-          </div>
+        <div class="icon-container-rounded-square card-elevated">
+          <a href="mailto:prabhashankar.kannapan@gmail.com">
+            <img src="./images/envelope.svg" alt="Link to email Prabhashankar" />
+          </a>
+        </div>
+        <div class="icon-container-rounded-square card-elevated">
+          <a href="http://wa.me/917012011453">
+            <img src="./images/whatsapp.svg" alt="Link to message Prabhashankar on WhatsApp" />
+          </a>
         </div>
       </div>
-    </footer>
-    <script src="js/app.js"></script>
-  </body>
+    </div>
+  </footer>
+  <script src="js/app.js"></script>
+</body>
+
 </html>
