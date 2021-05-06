@@ -574,7 +574,6 @@ section {
 
 /* WORKS */
 .my-works-container {
-  padding: 2rem;
   border-radius: 10px;
   display: grid;
   width: 100%;
@@ -582,6 +581,7 @@ section {
   grid-template-columns: repeat(2, 1fr);
 }
 .work-container {
+  margin: 2rem;
   display: grid;
   width: 100%;
   gap: 1rem;
@@ -595,8 +595,8 @@ section {
 }
 
 .my-work-info-container {
-  width: 100%;
   display: flex;
+  width: 100%;
   flex-direction: column;
 }
 
@@ -606,13 +606,11 @@ section {
 
 .work-container:nth-child(odd) .my-work-info-container {
   align-items: flex-start;
-  margin-left: 1rem;
   text-align: start;
 }
 
 .work-container:nth-child(even) .my-work-info-container {
   align-items: flex-end;
-  margin-right: 1rem;
   text-align: end;
 }
 
