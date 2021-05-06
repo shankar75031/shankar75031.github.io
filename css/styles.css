@@ -73,6 +73,7 @@ h6 {
 h1 {
   font-size: 4rem;
   font-weight: 900;
+  transition: font-size 1s;
 }
 
 h2 {
@@ -105,6 +106,45 @@ p {
   font-size: 0.66rem;
   font-weight: 200;
   color: var(--text-secondary);
+}
+
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 2.5rem;
+    font-weight: 900;
+  }
+
+  h2 {
+    font-size: 1.6rem;
+    display: inline;
+    font-weight: 700;
+  }
+
+  h3 {
+    font-size: 1rem;
+    font-weight: 700;
+  }
+
+  h4 {
+    font-size: 0.8rem;
+    font-weight: 600;
+  }
+
+  h5 {
+    font-size: 0.75rem;
+    font-weight: 400;
+  }
+
+  h6 {
+    font-size: 0.75rem;
+    font-weight: 300;
+  }
+
+  p {
+    font-size: 0.5rem;
+    font-weight: 200;
+    color: var(--text-secondary);
+  }
 }
 
 ::placeholder {
@@ -333,6 +373,7 @@ section {
   display: inline-block;
   width: 400px;
   border-radius: 50%;
+  transition: width 1s, height 1s;
 }
 
 .bio-image-container img {
@@ -342,6 +383,7 @@ section {
   margin-top: 10px;
   object-fit: cover;
   border-radius: 50%;
+  transition: width 1s, height 1s;
 }
 
 .bio-name {
@@ -368,16 +410,26 @@ section {
   }
   .bio-image-container {
     height: 300px;
-    display: inline-block;
     width: 300px;
-    border-radius: 50%;
   }
-
   .bio-image-container img {
+    margin-left: 10px;
+    margin-top: 10px;
     height: 280px;
     width: 280px;
-    object-fit: cover;
-    border-radius: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .bio-image-container {
+    height: 180px;
+    width: 180px;
+  }
+  .bio-image-container img {
+    margin-left: 5px;
+    margin-top: 5px;
+    height: 170px;
+    width: 170px;
   }
 }
 
@@ -578,6 +630,12 @@ section {
   width: 5rem;
   background-color: ivory;
   border-radius: 10px;
+}
+
+@media screen and (max-width: 750px) {
+  .my-works-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
 
 .work-experience-container {
