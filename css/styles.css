@@ -853,10 +853,19 @@ footer {
   width: 20px;
   margin: 0.5rem 0.7rem 0.5rem 0.7rem;
   height: 20px;
+  transition: width 1s, height 1s;
 }
 
 .icon-container-rounded-square:hover,
 .icon-container-rounded-square:active {
   box-shadow: 5px 5px 10px inset var(--shadow-light),
     -5px -5px 10px inset var(--shadow-dark);
+}
+
+@media screen and (max-width: 600px) {
+  .icon-container-rounded-square img {
+    width: 15px;
+    height: 15px;
+    margin: 0.25rem 0.4rem 0.25rem 0.4rem;
+  }
 }
